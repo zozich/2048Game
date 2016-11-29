@@ -7,7 +7,7 @@ public class Field {
     private List<List<Cell>> gameField;
     private Integer size;
 
-    public Field(Integer size) {
+    public Field(Integer size){
         gameField = new ArrayList();
         for (int i = 0; i < size; i++) {
             List<Cell> oneRow = new ArrayList();
