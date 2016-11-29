@@ -45,6 +45,7 @@ public class Game {
             try {
                 gameFieldSize = Integer.parseInt(userInput);
             } catch (Exception e) {
+                System.out.println("Error!");
             }
         } while (gameFieldSize <= 1);
         return gameFieldSize;
