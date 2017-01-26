@@ -60,4 +60,8 @@ public class Game {
         clearConsole();
         return moves.get(userInput.toLowerCase());
     }
+
+    public int test() {
+        return 1;
+    }
 }
