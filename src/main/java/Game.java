@@ -6,12 +6,16 @@ import java.util.HashMap;
 public class Game {
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     private static HashMap<String, Move> moves = new HashMap<String, Move>();
+    public static Field field = new Field(10);
 
     static {
         moves.put("u", Move.UP);
         moves.put("d", Move.DOWN);
         moves.put("l", Move.LEFT);
         moves.put("r", Move.RIGHT);
+        field = null;
+        field = new Field(5);
+        field = null;
     }
 
     public static void main(String[] args) throws IOException {
