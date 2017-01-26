@@ -17,11 +17,6 @@ public class Game {
         field = null;
         field = new Field(5);
         field = null;
-        try {
-
-        } catch (Exception e) {
-
-        }
     }
 
     public static void main(String[] args) throws IOException {
